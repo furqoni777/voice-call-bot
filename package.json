@@ -1,1 +1,17 @@
-
+{
+  "name": "voice-call-bot",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "express": "^4.18.2",
+    "dotenv": "^16.0.3"
+  }
+}
